@@ -1,0 +1,25 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Banco de dados local
+*.db
+
+# Cache e testes
+.pytest_cache/
+.mypy_cache/
+
+# Editor
+.vscode/
+
+# Git
+.DS_Store
